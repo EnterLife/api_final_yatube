@@ -13,7 +13,6 @@ django-cors-headers==3.7.0
 django-filter==2.4.0
 django-utils-six==2.0
 djangorestframework==3.12.2
-djangorestframework-filters==0.11.1
 djangorestframework-simplejwt==4.6.0
 flake8==3.8.4
 idna==2.10
