@@ -40,8 +40,7 @@ class FollowSerializer(serializers.ModelSerializer):
         following = get_object_or_404(User, username=following_username)
         if following == user:
             raise ValidationError('Вы не можете подписаться на самого себя')
-
-        return super(FollowSerializer, self).validate(attrs)
+        return super().validate(attrs)
 
 
 class PostSerializer(serializers.ModelSerializer):
